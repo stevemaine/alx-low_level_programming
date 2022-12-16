@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * print_most_numbers - Prints numer between 0 and 9 with new line
- * Return:void
  *
+ * Return:void
  */
 void print_most_numbers(void)
 {
