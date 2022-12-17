@@ -1,21 +1,31 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_triangle - Entry point
- * Description: Prints triangles with Asterisks
- * @size: size of the triangle
+ * Description: Print triangle with asterisks
+ * @size: size of the printed triangle
  * Return: void
  */
 void print_triangle(int size)
 {
-	int rows =5;
+	int row, j, i;
 
-	for (int i = 1; i <= rows; i++)
+	if (size <= 0)
 	{
-		for (int j = 0; j < i; j++)
+		_putchar('\n')
+	}
+	else
+	{
+		for (row = 1; row <= size; row++)
 		{
-			_putchar("*");
+			for (i = size - row; i >= 1; i--)
+			{
+				_putchar(' ');
+			}
+			for (j = 1; j <= row; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar("\n");
 	}
 }
