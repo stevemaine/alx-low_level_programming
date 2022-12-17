@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_number - nmbr fct
+ * more_numbers - Entry point
  * Description: Print more numbers
  * Return: no return
  */
