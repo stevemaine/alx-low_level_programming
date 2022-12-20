@@ -21,6 +21,3 @@ void puts_half(char *str)
 	_putchar(str[string]);
 	_putchar('\n');
 }
-/**
- * SteveMaine
- */
