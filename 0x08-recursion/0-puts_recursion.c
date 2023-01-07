@@ -1,3 +1,9 @@
+#include "main.h"
+/**
+ * _puts_recursion - print a string
+ * @s:string
+ * Return:void
+ */
 void _puts_recursion(char *s)
 {
     if (*s == '\0') // base case: if the current character is the null terminator, we have reached the end of the string
