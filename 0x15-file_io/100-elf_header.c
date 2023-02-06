@@ -1,6 +1,7 @@
 /*
  * File: 100-elf_header.c
- * Auth: Stephen Isoboye - stevemaine
+ * Auth: Stephen Isoboye
+ * stevemaine
  */
 
 #include <elf.h>
